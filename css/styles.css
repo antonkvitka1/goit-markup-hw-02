@@ -138,8 +138,11 @@ body{
 /* ---------- footer ---------- */
 
 .logo-second-part{
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
     }
+.footer-list{
+    list-style: none;
+}
 
 .footer-link{
     font-family: var(--main-font);
@@ -147,30 +150,30 @@ body{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
     text-decoration: none;
-    list-style: none;
     font-style: normal;
 }
 /* ---------- end footer ---------- */
 
 
 /* ---------- portfolio btn list ---------- */
-
 .portfolio-btn-list{
+    list-style: none;
+}
+.portfolio-btn{
     font-family: var(--main-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
-    text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    list-style: none;
+    
     cursor: pointer;
 }
 
-.portfolio-btn-list:hover,
-.portfolio-btn-list:focus{
+.portfolio-btn:hover,
+.portfolio-btn:focus{
     background-color: var(--accent-color);
     color: white;
 }
